@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff30;
+}
+
+.logo-card {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.score-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.emoji-logo {
+  width: 30px;
+  height: 30px;
+}
+.emoji-heading {
+  font-family: Roboto;
+  color: #ffffff;
+  font-weight: bold;
+  padding-left: 6px;
+}
+
+.scores-heading {
+  font-family: Roboto;
+  color: #ffffff;
+  font-weight: bold;
+  padding-left: 20px;
+}
+@media screen and (max-width: 568px) {
+  .emoji-heading {
+    font-size: 18px;
+  }
+}

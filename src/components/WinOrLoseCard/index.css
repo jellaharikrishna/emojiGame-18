@@ -1,0 +1,58 @@
+.win-lose-card {
+  background-color: #ffffff33;
+  border: 4px solid #ffffff30;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+}
+.win-loose-img {
+  width: 50%;
+}
+.result-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.won-loose-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  margin-bottom: 0;
+}
+.score-title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.score-number {
+  color: #6a59ff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+}
+.play-again-btn {
+  height: 40px;
+  width: 100px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #3d3d3d;
+  background-color: #ffce27;
+  border-radius: 12px;
+  border-width: 0;
+}
+@media screen and (min-width: 768px) {
+  .win-lose-card {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  .win-loose-img {
+    width: 40%;
+    order: 1;
+  }
+}

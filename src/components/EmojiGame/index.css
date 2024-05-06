@@ -1,0 +1,21 @@
+.bg-container {
+  background: linear-gradient(to right, #9796f0, #fbc7d4);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.emoji-card-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
